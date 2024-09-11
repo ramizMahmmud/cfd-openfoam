@@ -1,6 +1,7 @@
 # Poiseuille Flow
 
-This README file contains a brief description of the simulation of Poiseuille Flow. To run the case, download or clone the repository and use the following commands in your Linux terminal:
+This README file contains a brief description of the simulation of Poiseuille Flow. 
+To run the case, download/clone/copy `before-run` directory, go to case folder in your local machine using linux terminal and use the following commands:
 
 ```bash
 blockMesh
