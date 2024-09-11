@@ -61,3 +61,14 @@ These boundaries are treated as empty, similar to the pressure field, meaning no
 ### 3. Transport Properties (`transportProperties`)
 
 The viscosity of the fluid is set to `0.01` (in appropriate units), defining the fluid's resistance to flow and deformation.
+
+## Post Process
+
+### Velocity:
+The velocity distribution across the Y-axis (perpendicular to the flow direction, i.e., the height of the channel), forms a parabolic profile.
+![Velocity across Y axis](velocity-profile-parallel-to-y-axis.png)
+
+### Pressure:
+ On imposing a zero-gradient condition for velocity at the outlet and specify that the pressure is zero at the outlet, the flow occurs because of the pressure difference between the inlet and the outlet. The higher pressure at the inlet drives the flow towards the lower pressure at the outlet (which is set to zero).
+ 
+ ![Pressure](pressure-along-x-axis.png)
