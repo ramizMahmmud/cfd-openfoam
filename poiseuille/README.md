@@ -62,7 +62,7 @@ These boundaries are treated as empty, similar to the pressure field, meaning no
 
 The viscosity of the fluid is set to `0.01` (in appropriate units), defining the fluid's resistance to flow and deformation.
 
-## Post Process
+## Post Processing
 
 ### Velocity:
 The velocity distribution across the Y-axis (perpendicular to the flow direction, i.e., the height of the channel), forms a parabolic profile.
