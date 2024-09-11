@@ -66,6 +66,7 @@ The viscosity of the fluid is set to `0.01` (in appropriate units), defining the
 
 ### Velocity:
 The velocity distribution across the Y-axis (perpendicular to the flow direction, i.e., the height of the channel), forms a parabolic profile.
+
 ![Velocity](postProcessing/velocity-profile-parallel-to-y-axis.png)
 
 ### Pressure:
