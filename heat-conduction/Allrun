@@ -1,0 +1,4 @@
+##---- first uncompress the rar file
+
+ideasUnvToFoam Mesh_1.unv
+laplacianFoam |tee log
