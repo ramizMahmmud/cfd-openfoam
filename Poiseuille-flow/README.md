@@ -43,9 +43,9 @@ Velocity along a vertical line (X = 0.75 m) demonstrates the classic **parabolic
 
 ### 3. Pressure Contour
 
-Pressure distribution along the domain shows a **linear drop** along the flow direction, characteristic of laminar channel flow:
+The following figure shows the pressure magnitude across the domain:
 
-![Pressure Contour](./pressure-contour.png)
+![Pressure Contour](./Pressure-contour.png)
 
 ---
 
