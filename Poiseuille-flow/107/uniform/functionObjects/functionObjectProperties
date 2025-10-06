@@ -1,0 +1,72 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "107/uniform/functionObjects";
+    object      functionObjectProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+cdf7e925f5746741c316f5fbcf39ad0dfca90775
+{
+    sample
+    {
+        scalar
+        {
+            average(veritcal,p) 2.424895026989759e-07;
+            min(veritcal,p) 2.424241508435574e-07;
+            max(veritcal,p) 2.42569237961775e-07;
+            average(horizontal,p) 6.418921715971699e-07;
+            min(horizontal,p) 2.402564667050068e-21;
+            max(horizontal,p) 1.470511280909407e-06;
+            average(p)      4.421908371480729e-07;
+            min(p)          2.402564667050068e-21;
+            max(p)          1.470511280909407e-06;
+        }
+        label
+        {
+            size(veritcal,p) 100;
+            size(horizontal,p) 100;
+            size(p)         200;
+            size(veritcal,U) 100;
+            size(horizontal,U) 100;
+            size(U)         200;
+        }
+        vector
+        {
+            average(veritcal,U) ( 0.0009824440000000001 2.25125e-08 0 );
+            min(veritcal,U) ( 0 -1.31599e-07 0 );
+            max(veritcal,U) ( 0.00148199 1.88796e-07 0 );
+            average(horizontal,U) ( 0.00141679 1.03607e-08 0 );
+            min(horizontal,U) ( 0.001 -4.58425e-07 0 );
+            max(horizontal,U) ( 0.00148451 3.97824e-07 0 );
+            average(U)      ( 0.00119962 1.64366e-08 0 );
+            min(U)          ( 0 -4.58425e-07 0 );
+            max(U)          ( 0.00148451 3.97824e-07 0 );
+        }
+    }
+}
+
+sample
+{
+    p
+    {
+        file            "<case>/postProcessing/sample/107/horizontal_p_U.gplt";
+    }
+    U
+    {
+        file            "<case>/postProcessing/sample/107/horizontal_p_U.gplt";
+    }
+}
+
+
+// ************************************************************************* //
